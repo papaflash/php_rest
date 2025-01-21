@@ -5,7 +5,7 @@ $(document).ready(function () {
             ip: $("#ip").val(),
         };
 
-        var url = "http://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address";
+        var url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address";
 
         if(iSEmptyInputsFrm(formData)) {
             return;
