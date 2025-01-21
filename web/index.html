@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/web/">
+    <title>Test jquery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="ajax_rest.js"></script>
+</head>
+<body>
+<header>
+</header>
+<div class="form-container">
+    <div class="user-info-container" id="info_container">
+        <span class="container-span hidden" id="span_for_name"></span>
+        <a id="link" href="" class="hidden">Новый запрос</a>
+    </div>
+    <form method="POST" id="frm" action="">
+        <label class="label">IP<input name="ip" type="text" id="ip" placeholder="Введите ip адрес" maxlength="15"></label>
+        <input type="hidden" name="api_key" id="api_key" value="833f50904ce0c04b16be7b367ebc56c3179f74f6">
+        <input type="hidden" name="secret_key" id="secret_key" value="5d56c667e6562e44f3c9a98a446b1c2bbb95f1f6">
+        <button type="submit" id="submit">Отправить</button>
+    </form>
+</div>
+<footer>
+    Автор: <cite>Шагов Александр</cite>
+</footer>
+
+</body>
+</html>
